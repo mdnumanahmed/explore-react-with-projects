@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import Bottle from "../Bottle/Bottle";
 
 const Bottles = () => {
   const [bottles, setBottles] = useState([]);
@@ -15,6 +16,14 @@ const Bottles = () => {
   return (
     <div>
       <h2 className="text-2xl">Available Bottles : {bottles.length} </h2>
+      <div className="grid grid-cols-70/30">
+        <div className="grid grid-cols-3 gap-5">
+          {bottles.map((bottle) => (
+            <Bottle key={bottle.id} bottle={bottle} />
+          ))}
+        </div>
+        <div>Cart Data</div>
+      </div>
     </div>
   );
 };
