@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "title": "Exploring the Secrets of Ancient Cities",
+        "cover": "https://i.ibb.co.com/c380Dr9/photo-1505330622279-bf7d7fc918f4.jpg",
+        "author_name": "Lara Jacobs",
+        "author_img": "https://i.ibb.co.com/m86zsX8/boy1.png",
+        "posted_date": "2024-11-01",
+        "reading_time": 5,
+        "hashtags": ["#History", "#Travel", "#AncientCities"]
+    },
+    {
+        "id": 2,
+        "title": "10 Tips for a Sustainable Lifestyle",
+        "cover": "https://i.ibb.co.com/c380Dr9/photo-1505330622279-bf7d7fc918f4.jpg",
+        "author_name": "Michael Chang",
+        "author_img": "https://i.ibb.co.com/m86zsX8/boy1.png",
+        "posted_date": "2024-10-28",
+        "reading_time": 8,
+        "hashtags": ["#Sustainability", "#EcoLiving", "#GreenTips"]
+    },
+    {
+        "id": 3,
+        "title": "Mastering Photography in Low Light",
+        "cover": "https://i.ibb.co.com/c380Dr9/photo-1505330622279-bf7d7fc918f4.jpg",
+        "author_name": "Sandra Lee",
+        "author_img": "https://i.ibb.co.com/m86zsX8/boy1.png",
+        "posted_date": "2024-11-02",
+        "reading_time": 12,
+        "hashtags": ["#Photography", "#TipsAndTricks", "#LowLight"]
+    },
+    {
+        "id": 4,
+        "title": "How to Start Your Own Garden at Home",
+        "cover": "https://i.ibb.co.com/c380Dr9/photo-1505330622279-bf7d7fc918f4.jpg",
+        "author_name": "Carlos Rivera",
+        "author_img": "https://i.ibb.co.com/m86zsX8/boy1.png",
+        "posted_date": "2024-10-30",
+        "reading_time": 15,
+        "hashtags": ["#Gardening", "#HomeGarden", "#DIY"]
+    },
+    {
+        "id": 5,
+        "title": "The Future of AI in Everyday Life",
+        "cover": "https://i.ibb.co.com/c380Dr9/photo-1505330622279-bf7d7fc918f4.jpg",
+        "author_name": "Emily Chen",
+        "author_img": "https://i.ibb.co.com/m86zsX8/boy1.png",
+        "posted_date": "2024-11-01",
+        "reading_time": 10,
+        "hashtags": ["#AI", "#Technology", "#FutureTrends"]
+    }
+]
