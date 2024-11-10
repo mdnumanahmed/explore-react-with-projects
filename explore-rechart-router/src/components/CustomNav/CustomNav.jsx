@@ -45,7 +45,7 @@ const CustomNav = () => {
         className={`${
           open
             ? "absolute md:static w-32 md:w-full top-8 right-0"
-            : "absolute md:static w-32 -top-60 right-0"
+            : "absolute md:static w-32 md:w-full -top-60 right-0"
         } text-right md:flex justify-center gap-8 bg-amber-100 py-5 duration-1000`}
       >
         {navItems.map((item) => (
