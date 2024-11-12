@@ -11,31 +11,31 @@ import ShowDetails from "./components/Meals/ShowDetails.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
     loader: () =>
       fetch("https://www.themealdb.com/api/json/v1/1/categories.php"),
+    element: <Home />,
     children: [
       {
         path: "meals",
-        element: <Meals />,
         loader: () =>
           fetch("https://www.themealdb.com/api/json/v1/1/search.php?f=a"),
+        element: <Meals />,
       },
       {
         path: "meal/:id",
-        element: <ShowDetails />,
         loader: ({ params }) =>
           fetch(
             `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${params.id}`
           ),
+        element: <ShowDetails />,
       },
       {
         path: "meals/:categoryId",
-        element: <MealsByCategory />,
         loader: ({ params }) =>
           fetch(
             `https://www.themealdb.com/api/json/v1/1/filter.php?c=${params.categoryId}`
           ),
+        element: <MealsByCategory />,
       },
     ],
   },

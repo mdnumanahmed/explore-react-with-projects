@@ -6,10 +6,10 @@ const CustomLink = ({ item }) => {
   return (
     <li className="list-none ">
       <NavLink
-        to={`/meals/${item.strCategory.toLowerCase()}`}
+        to={`/${item.name}`}
         className=" rounded-md hover:bg-amber-200 px-3 py-2"
       >
-        {item.strCategory}
+        {item.name}
       </NavLink>
     </li>
   );

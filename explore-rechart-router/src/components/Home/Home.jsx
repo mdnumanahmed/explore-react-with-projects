@@ -1,12 +1,13 @@
 import { Outlet, useLoaderData } from "react-router-dom";
 import CustomNav from "../CustomNav/CustomNav";
+import MealFilterNav from "../Meals/MealFilterNav";
 
 const Home = () => {
   const { categories } = useLoaderData();
-  console.log(categories);
   return (
     <div>
-      <CustomNav categories={categories} />
+      <CustomNav />
+      <MealFilterNav categories={categories} />
       <Outlet />
     </div>
   );

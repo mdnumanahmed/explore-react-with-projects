@@ -1,12 +1,18 @@
 import { useLoaderData } from "react-router-dom";
 
 const ShowDetails = () => {
-  const { meal } = useLoaderData();
-  console.log(meal);
+  const { meals } = useLoaderData();
+  // console.log(meals);
+  // const { id } = useParams();
+  // console.log(id);
   return (
     <div>
-      <img src={meal?.strMealThumb} alt="" />
-      <h3>{meal?.strMeal}</h3>
+      {meals.map((meal) => (
+        <div key={meal.idMeal}>
+          <img src={meal?.strMealThumb} alt="" />
+          <h3>{meal?.strMeal}</h3>
+        </div>
+      ))}
     </div>
   );
 };
